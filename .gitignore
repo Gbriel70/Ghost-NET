@@ -1,5 +1,7 @@
-docs/
-AGENTS.md
 GHOSTNET_BLUEPRINT.md
-/experiments/p2p-spike/target
 .serena
+
+# Generated build outputs and validation runs at any directory depth.
+target/
+validation/
+# Existing tracked validation logs remain as historical evidence.
