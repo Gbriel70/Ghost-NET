@@ -1,0 +1,4 @@
+ INFO local_peer_id=12D3KooWKDdUUQ4rnE23vEpdktWkhRAnushc1Knk1xg8CQiAQXd3
+ INFO event="identity" local_peer_id=12D3KooWKDdUUQ4rnE23vEpdktWkhRAnushc1Knk1xg8CQiAQXd3
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/35599/p2p/12D3KooWKDdUUQ4rnE23vEpdktWkhRAnushc1Knk1xg8CQiAQXd3
+ WARN event="incoming_error" error=Transport(Other(Custom { kind: Other, error: Other(Right(Select(ProtocolError(IoError(Os { code: 32, kind: BrokenPipe, message: "Broken pipe" }))))) }))

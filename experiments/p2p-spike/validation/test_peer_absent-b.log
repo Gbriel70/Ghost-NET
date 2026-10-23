@@ -1,0 +1,5 @@
+ INFO local_peer_id=12D3KooWHejwBJyGJaK5WkwZrJCEoXNPoL8THCgRa6dqqR6Yebwa
+ INFO event="identity" local_peer_id=12D3KooWHejwBJyGJaK5WkwZrJCEoXNPoL8THCgRa6dqqR6Yebwa
+ INFO event="dial_started" address=/ip4/127.0.0.1/tcp/58299
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/40265/p2p/12D3KooWHejwBJyGJaK5WkwZrJCEoXNPoL8THCgRa6dqqR6Yebwa
+ WARN event="dial_error" remote_peer_id=None error=Transport([(/ip4/127.0.0.1/tcp/58299, Other(Custom { kind: Other, error: Other(Left(Left(Os { code: 111, kind: ConnectionRefused, message: "Connection refused" }))) }))])

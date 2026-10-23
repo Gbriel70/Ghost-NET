@@ -1,0 +1,8 @@
+ INFO local_peer_id=12D3KooWCkW2Edr61QtfjikfHVBqXVpNc9eWNKDQtXHQwnqyg8Lj
+ INFO event="identity" local_peer_id=12D3KooWCkW2Edr61QtfjikfHVBqXVpNc9eWNKDQtXHQwnqyg8Lj
+ INFO event="dial_started" address=/ip4/127.0.0.1/tcp/35599/p2p/12D3KooWLNWx4RVpRnqUdDptcNbYRnU5RVnxyrXzFgYALTKwW6Vc
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/34645/p2p/12D3KooWCkW2Edr61QtfjikfHVBqXVpNc9eWNKDQtXHQwnqyg8Lj
+ WARN event="dial_error" remote_peer_id=Some(PeerId("12D3KooWLNWx4RVpRnqUdDptcNbYRnU5RVnxyrXzFgYALTKwW6Vc")) error=WrongPeerId { obtained: PeerId("12D3KooWKDdUUQ4rnE23vEpdktWkhRAnushc1Knk1xg8CQiAQXd3"), address: /ip4/127.0.0.1/tcp/35599/p2p/12D3KooWLNWx4RVpRnqUdDptcNbYRnU5RVnxyrXzFgYALTKwW6Vc }
+ INFO event="connected" remote_peer_id=12D3KooWKUNJ2z6fFfLx4oVHVyP4czAEeRiBH827eEKHkqK6YQjf connection_id=2 endpoint=Listener { local_addr: /ip4/127.0.0.1/tcp/34645, send_back_addr: /ip4/127.0.0.1/tcp/44769 }
+ INFO event="ping_ok" remote_peer_id=12D3KooWKUNJ2z6fFfLx4oVHVyP4czAEeRiBH827eEKHkqK6YQjf connection_id=2 rtt_us=211
+ INFO event="disconnected" remote_peer_id=12D3KooWKUNJ2z6fFfLx4oVHVyP4czAEeRiBH827eEKHkqK6YQjf connection_id=2 cause=Some(IO(Custom { kind: Other, error: Error(Closed) }))

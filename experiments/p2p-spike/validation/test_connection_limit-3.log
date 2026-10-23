@@ -1,0 +1,6 @@
+ INFO local_peer_id=12D3KooWR1wGaxDL7sDibHneuHyQRsA1E6BA7r59dyBPDCNKanh8
+ INFO event="identity" local_peer_id=12D3KooWR1wGaxDL7sDibHneuHyQRsA1E6BA7r59dyBPDCNKanh8
+ INFO event="dial_started" address=/ip4/127.0.0.1/tcp/46457/p2p/12D3KooWAFdY1Y5fU52UatipDM2hnJqeNVky872NUbLGRVqVh2i4
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/45779/p2p/12D3KooWR1wGaxDL7sDibHneuHyQRsA1E6BA7r59dyBPDCNKanh8
+ INFO event="connected" remote_peer_id=12D3KooWAFdY1Y5fU52UatipDM2hnJqeNVky872NUbLGRVqVh2i4 connection_id=1 endpoint=Dialer { address: /ip4/127.0.0.1/tcp/46457/p2p/12D3KooWAFdY1Y5fU52UatipDM2hnJqeNVky872NUbLGRVqVh2i4, role_override: Dialer, port_use: Reuse }
+ INFO event="ping_ok" remote_peer_id=12D3KooWAFdY1Y5fU52UatipDM2hnJqeNVky872NUbLGRVqVh2i4 connection_id=1 rtt_us=131

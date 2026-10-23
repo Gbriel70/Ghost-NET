@@ -1,0 +1,5 @@
+ INFO local_peer_id=12D3KooWRWJmTEGT7PgMgnKnRUbPFdydDUULYUk8UWaSK3FG1PZt
+ INFO event="identity" local_peer_id=12D3KooWRWJmTEGT7PgMgnKnRUbPFdydDUULYUk8UWaSK3FG1PZt
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/41713/p2p/12D3KooWRWJmTEGT7PgMgnKnRUbPFdydDUULYUk8UWaSK3FG1PZt
+ INFO event="connected" remote_peer_id=12D3KooWM7mvdKreakXHXdWJrTjtpUZ2iULWNSBBmLxgFBjtT1Ag connection_id=1 endpoint=Listener { local_addr: /ip4/127.0.0.1/tcp/41713, send_back_addr: /ip4/127.0.0.1/tcp/45091 }
+ INFO event="ping_ok" remote_peer_id=12D3KooWM7mvdKreakXHXdWJrTjtpUZ2iULWNSBBmLxgFBjtT1Ag connection_id=1 rtt_us=129

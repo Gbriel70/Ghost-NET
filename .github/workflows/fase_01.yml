@@ -1,0 +1,51 @@
+name: Fase 1 - validação do spike P2P
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-p2p-spike:
+    name: Validar p2p-spike
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Rust
+        uses: dtolnay/rust-toolchain@1.98.1
+        with:
+          components: rustfmt, clippy
+
+      - name: Armazenar cache do Cargo
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: experiments/p2p-spike
+
+      - name: Verificar formatação
+        run: cargo fmt --manifest-path experiments/p2p-spike/Cargo.toml -- --check
+
+      - name: Compilar em modo bloqueado
+        run: cargo build --locked --manifest-path experiments/p2p-spike/Cargo.toml
+
+      - name: Executar testes Rust
+        run: cargo test --locked --manifest-path experiments/p2p-spike/Cargo.toml
+
+      - name: Executar Clippy sem warnings
+        run: cargo clippy --locked --manifest-path experiments/p2p-spike/Cargo.toml --all-targets -- -D warnings
+
+      - name: Executar testes entre processos
+        run: python3 experiments/p2p-spike/tests/processes.py
+
+      - name: Publicar logs de validação em caso de falha
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p2p-spike-validation-logs
+          path: experiments/p2p-spike/validation/
+          if-no-files-found: ignore

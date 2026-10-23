@@ -1,0 +1,5 @@
+ INFO local_peer_id=12D3KooWMtCCZNodPp7cF4KNL8Nwu83SMNf32i1ERjXXHBz594p3
+ INFO event="identity" local_peer_id=12D3KooWMtCCZNodPp7cF4KNL8Nwu83SMNf32i1ERjXXHBz594p3
+ INFO event="dial_started" address=/ip4/127.0.0.1/tcp/50401
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/39589/p2p/12D3KooWMtCCZNodPp7cF4KNL8Nwu83SMNf32i1ERjXXHBz594p3
+ WARN event="dial_error" remote_peer_id=None error=Transport([(/ip4/127.0.0.1/tcp/50401, Other(Custom { kind: Other, error: Timeout }))])

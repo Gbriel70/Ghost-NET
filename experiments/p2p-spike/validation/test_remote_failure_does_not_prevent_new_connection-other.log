@@ -1,0 +1,3 @@
+ INFO local_peer_id=12D3KooWLNWx4RVpRnqUdDptcNbYRnU5RVnxyrXzFgYALTKwW6Vc
+ INFO event="identity" local_peer_id=12D3KooWLNWx4RVpRnqUdDptcNbYRnU5RVnxyrXzFgYALTKwW6Vc
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/46529/p2p/12D3KooWLNWx4RVpRnqUdDptcNbYRnU5RVnxyrXzFgYALTKwW6Vc

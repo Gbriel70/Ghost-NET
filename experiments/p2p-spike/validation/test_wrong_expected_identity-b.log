@@ -1,0 +1,5 @@
+ INFO local_peer_id=12D3KooWH29uS3XokkT6z9n51YU3LjkKckoxVZLtihYK7FRSNwQV
+ INFO event="identity" local_peer_id=12D3KooWH29uS3XokkT6z9n51YU3LjkKckoxVZLtihYK7FRSNwQV
+ INFO event="dial_started" address=/ip4/127.0.0.1/tcp/46543/p2p/12D3KooWCCydzYdkuBCL47hShc6C1XJrzefuMvYKThZ5qcHxu6AV
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/39697/p2p/12D3KooWH29uS3XokkT6z9n51YU3LjkKckoxVZLtihYK7FRSNwQV
+ WARN event="dial_error" remote_peer_id=Some(PeerId("12D3KooWCCydzYdkuBCL47hShc6C1XJrzefuMvYKThZ5qcHxu6AV")) error=WrongPeerId { obtained: PeerId("12D3KooWAYcSaQrdaRaJPzP2na9CvYnZ2mZ57ES6mevDta1TvPzZ"), address: /ip4/127.0.0.1/tcp/46543/p2p/12D3KooWCCydzYdkuBCL47hShc6C1XJrzefuMvYKThZ5qcHxu6AV }

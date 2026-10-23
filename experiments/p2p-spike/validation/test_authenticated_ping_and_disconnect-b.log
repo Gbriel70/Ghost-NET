@@ -1,0 +1,7 @@
+ INFO local_peer_id=12D3KooWM7mvdKreakXHXdWJrTjtpUZ2iULWNSBBmLxgFBjtT1Ag
+ INFO event="identity" local_peer_id=12D3KooWM7mvdKreakXHXdWJrTjtpUZ2iULWNSBBmLxgFBjtT1Ag
+ INFO event="dial_started" address=/ip4/127.0.0.1/tcp/41713/p2p/12D3KooWRWJmTEGT7PgMgnKnRUbPFdydDUULYUk8UWaSK3FG1PZt
+ INFO event="listening" address=/ip4/127.0.0.1/tcp/45091/p2p/12D3KooWM7mvdKreakXHXdWJrTjtpUZ2iULWNSBBmLxgFBjtT1Ag
+ INFO event="connected" remote_peer_id=12D3KooWRWJmTEGT7PgMgnKnRUbPFdydDUULYUk8UWaSK3FG1PZt connection_id=1 endpoint=Dialer { address: /ip4/127.0.0.1/tcp/41713/p2p/12D3KooWRWJmTEGT7PgMgnKnRUbPFdydDUULYUk8UWaSK3FG1PZt, role_override: Dialer, port_use: Reuse }
+ INFO event="ping_ok" remote_peer_id=12D3KooWRWJmTEGT7PgMgnKnRUbPFdydDUULYUk8UWaSK3FG1PZt connection_id=1 rtt_us=155
+ INFO event="disconnected" remote_peer_id=12D3KooWRWJmTEGT7PgMgnKnRUbPFdydDUULYUk8UWaSK3FG1PZt connection_id=1 cause=Some(IO(Custom { kind: Other, error: Error(Closed) }))
